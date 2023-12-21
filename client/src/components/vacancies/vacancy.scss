@@ -1,0 +1,32 @@
+.vacancy {
+    border: 3px solid #ff5851;
+    height: 100%;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    &__header {
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        * {
+            align-self: center;
+        }
+        button {
+            margin-top: 4px;
+            border: none;
+            background-color: #ff5851 !important;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+    
+       
+    }
+    &__body {
+        margin-top: 0.5rem;
+        display: flex;
+        text-align: center;
+    }
+}
